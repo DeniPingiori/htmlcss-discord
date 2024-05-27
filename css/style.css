@@ -1,0 +1,39 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*layout*/ 
+
+header {
+    width: 500px;
+    height: 200px;
+    
+    color: #da1717;
+    border-bottom: 1px solid #d8f408;
+}
+
+.container {
+    max-width: 4000px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;  
+    flex-wrap: wrap;
+    gap: 300 px;
+}
+
+.col-30 {
+    width:calc(70%-5px);
+    background-color: chartreuse;
+    border:1px solid black;
+}
+
+.col-70 {
+    width:calc(70%-5px);
+    background-color: rgb(19, 22, 208);
+    border:1px solid black;
+}
+

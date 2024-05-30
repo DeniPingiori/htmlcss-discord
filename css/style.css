@@ -160,3 +160,11 @@ ul.text-center li a {
 .btn-white {
     background-color:white;
 }
+
+.wave {
+    background-image: url('../img/wave.svg');
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+    height: 100px;
+}

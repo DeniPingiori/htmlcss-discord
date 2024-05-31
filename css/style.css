@@ -26,8 +26,6 @@ footer {
 }
 .row {
     display: flex;  
-
-    gap: 300 px;
 }
 
 .col-15 {
@@ -142,7 +140,6 @@ ul.text-left li a {
 }
 */
 .bg-lightaqua {
-    background-color: aquamarine;
     padding: 20px 0;
 }
 .h-700 {
@@ -159,8 +156,6 @@ ul.text-left li a {
 }
 
 .box-bottom-footer {
-    background-color: pink;
-    border: 1px dashed black;
     padding: 10px;
 
 }
